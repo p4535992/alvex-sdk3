@@ -1,0 +1,12 @@
+/*
+.tools-link > ul.toolLink > li > span a[title='Uploader Plus Aspect'],
+.tools-link > ul.toolLink > li > span a[title='Uploader Plus'],
+.tools-link > ul.toolLink > li > span a[title='Folder quotas manager']
+*/
+.tools-link > ul.toolLink > li > span a[href='orgchart-admin'],
+.tools-link > ul.toolLink > li > span a[href='masterdata-admin'],
+.tools-link > ul.toolLink > li > span a[href='workflow-permissions-admin']
+{    
+      visibility: hidden;
+      position: absolute;
+}

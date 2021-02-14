@@ -1,0 +1,23 @@
+<extension>
+  <modules>
+    <module>
+      <id>alvex-orgchart-share-header</id>
+      <version>1.0</version>
+      <auto-deploy>false</auto-deploy>
+      <customizations>
+        <customization>
+          <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+          <sourcePackageRoot>alvex.alvex-orgchart.com.alvexcore.orgchart-header</sourcePackageRoot>
+        </customization>
+        <customization>
+          <targetPackageRoot>org.alfresco.share.pages</targetPackageRoot>
+          <sourcePackageRoot>alvex.alvex-orgchart.com.alvexcore.orgchart-header</sourcePackageRoot>
+          <alwaysApply>
+            <webscript>share-header</webscript>
+          </alwaysApply>
+        </customization>
+      </customizations>
+     
+    </module>
+  </modules>
+</extension>

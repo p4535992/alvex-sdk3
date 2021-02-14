@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>testpage</shortname>
+  <description>testpage</description>
+  <family>alvex</family>
+  <url>/testpage</url>
+  <authentication>user</authentication>
+</webscript>

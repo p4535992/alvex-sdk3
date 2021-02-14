@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+
+<beans>
+	
+	<!-- This is filtered by Maven at build time, so that module name is single sourced. -->
+    <bean id="com.alvexcore.repo.infavorites.InFavoritesAssociationPolicy" class="com.alvexcore.repo.infavorites.InFavoritesAssociationPolicy" init-method="init">
+        <property name="nodeService">
+            <ref bean="NodeService" />
+        </property>
+        <property name="policyComponent">
+            <ref bean="policyComponent" />
+        </property>
+        <property name="preferenceService">
+            <ref bean="PreferenceService" />
+        </property>
+        <property name="transactionService">
+            <ref bean="TransactionService" />
+        </property>
+    </bean>
+
+    <bean id="com.alvexcore.repo.infavorites.InFavoritesAssociationSpider" class="com.alvexcore.repo.infavorites.InFavoritesAssociationSpider" parent="module.baseComponent">
+        <property name="moduleId" value="${project.artifactId}" />
+        <property name="name" value="${project.name}" />
+        <property name="description" value="${project.description}" />
+        <property name="sinceVersion" value="0.1" />
+        <property name="appliesFromVersion" value="0.1" />
+        <property name="executeOnceOnly" value="true" />
+        <property name="nodeService">
+            <ref bean="NodeService" />
+        </property>
+        <property name="searchService">
+            <ref bean="SearchService" />
+        </property>
+        <property name="personService">
+            <ref bean="PersonService" />
+        </property>
+        <property name="preferenceService">
+            <ref bean="PreferenceService" />
+        </property>
+        <property name="transactionService">
+            <ref bean="TransactionService" />
+        </property>
+        <property name="repositoryState">
+            <ref bean="repositoryState" />
+        </property>
+    </bean>
+
+    <bean id="infavorites-aspect-model" parent="dictionaryModelBootstrap" depends-on="dictionaryBootstrap">
+        <property name="models">
+            <list>
+                <value>alfresco/module/${project.artifactId}/model/alvex-infavorites-document-association-infavorites-aspect-model.xml</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>

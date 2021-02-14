@@ -1,0 +1,29 @@
+<#assign controlId = fieldHtmlId + "-cntrl">
+<@script type="text/javascript" src="${page.url.context}/res/alvex/alvex-datagrid2/js/components/alvex/datalists/form/version.js"></@script>
+<div class="form-field">
+   
+   <script type="text/javascript">//<![CDATA[
+   (function()
+   {
+      new Alfresco.VersionControl("${controlId}").setOptions(
+      {
+         <#if context.properties.nodeRef??>
+         	nodeRef: "${context.properties.nodeRef?js_string}"
+         <#elseif (form.mode == "edit" || form.mode == "view") && args.itemId??>
+         	nodeRef: "${args.itemId?js_string}"
+         <#else>
+         	nodeRef: ""
+         </#if>
+         }).setMessages(
+         ${messages}
+      );
+   })();
+   //]]></script>
+   
+   <label for="${controlId}">${field.label?html}:</label>
+   
+   
+   <div id="${controlId}" style="width:24em">
+   </div>
+   
+</div>

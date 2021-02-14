@@ -1,0 +1,12 @@
+<webscript>
+	<shortname>extension-list</shortname>
+	<description>
+		<![CDATA[
+		Lists all installed extensions
+		]]>
+	</description>
+	<url>/api/alvex/extension-list</url>
+	<format default="json" />
+	<authentication>admin</authentication>
+	<transaction>required</transaction>
+</webscript>

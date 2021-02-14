@@ -1,0 +1,39 @@
+<extension>
+  <modules>
+    <module>    	
+    	    <id>alvex-utils-hide-admin-tool-extension</id>
+            <version>1.0</version>
+			<auto-deploy>false</auto-deploy>
+			<configurations>	
+				<!-- 
+				<config>
+					<forms>      
+						<dependencies>
+							<css src="/alvex/alvex-utils/css/custom-admin-tool-alvex.css" />
+						</dependencies>
+					</forms>
+				</config>
+				-->
+				<config evaluator="string-compare" condition="DocLibCustom">
+					<dependencies>						
+						<css src="/alvex/alvex-utils/css/custom-admin-tool-alvex.css" />
+					</dependencies>
+				</config>
+				<!-- Allow extension modules with <auto-deploy> set to true to be automatically deployed -->		
+				<!--
+				<config evaluator="string-compare" condition="WebFramework">
+					<web-framework>
+						<module-deployment>							
+							<mode>manual</mode>
+							<enable-auto-deploy-modules>true</enable-auto-deploy-modules>
+						</module-deployment>
+						<use-checksum-dependencies>true</use-checksum-dependencies>
+						<generate-css-data-images>true</generate-css-data-images>
+					</web-framework>
+				</config>		
+				-->
+            </configurations>
+     
+    </module>
+  </modules>
+</extension>

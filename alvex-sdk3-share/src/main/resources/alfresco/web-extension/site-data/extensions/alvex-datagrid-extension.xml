@@ -1,0 +1,121 @@
+<extension>
+    <modules>
+        <module>
+            <id>alvex-datagrid-extension</id>
+            <version>1.0</version>
+			<auto-deploy>false</auto-deploy>
+
+            <components>
+				<component>
+					<scope>template</scope>
+					<region-id>datagrid</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">
+							<!-- 
+						    <evaluations>
+                                <evaluation id="xy">
+                                    <evaluators>
+                                        <evaluator type="xy.evaluator"></evaluator>
+                                    </evaluators>
+                                    <render>false</render>
+                                </evaluation>
+                            </evaluations>
+							<evaluations>			
+					            <evaluation id="alvex-data-lists-datagrid">							               
+					               <url>/alvex/components/data-lists/datagrid</url>		
+					            </evaluation>			
+					         </evaluations>
+					         -->
+					         <url>/alvex/components/data-lists/datagrid</url>
+						</sub-component>
+					</sub-components>
+				</component>
+			
+				<component>
+					<scope>template</scope>
+					<region-id>toolbar</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">
+						  	<!--
+							<evaluations>
+                                <evaluation id="xy">
+                                    <evaluators>
+                                        <evaluator type="xy.evaluator"></evaluator>
+                                    </evaluators>
+                                    <render>false</render>
+                                </evaluation>
+                            </evaluations>
+							<evaluations>			
+					            <evaluation id="alvex-data-lists-toolbar">							               
+					               <url>/alvex/components/data-lists/toolbar</url>		
+					            </evaluation>			
+					        </evaluations>
+					        -->
+					        <url>/alvex/components/data-lists/toolbar</url>									
+						</sub-component>
+					</sub-components>
+				</component>
+				<!-- 
+				<component>
+					<scope>template</scope>
+					<region-id>filter</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">					  
+					        <url>/alvex/components/data-lists/filter</url>									
+						</sub-component>
+					</sub-components>
+				</component>
+				<component>
+					<scope>template</scope>
+					<region-id>datalists</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">					  
+					        <url>/alvex/components/data-lists/datalists</url>									
+						</sub-component>
+					</sub-components>
+				</component>
+				-->
+			</components>
+	 		
+			<customizations>
+               <customization>
+                   <targetPackageRoot>org.alfresco.components.data-lists.config</targetPackageRoot>
+                   <sourcePackageRoot>alvex.alvex-datagrid.datagrid-config</sourcePackageRoot>
+               </customization>		                
+            </customizations>
+		
+			 
+			<configurations>
+					<!--
+					<config>
+						<forms>      
+							<dependencies>	
+								<css src="/alvex/alvex-datagrid/css/components/alvex/datalists/datagrid.css" />
+								<css src="/alvex/alvex-datagrid/css/components/alvex/datalists/toolbar.css" />
+								
+								<js src="/modules/data-lists/datalist-actions.js" />
+								
+								<js src="/alvex/alvex-utils/js/components/alvex/alvex.js" />
+								<js src="/alvex/alvex-utils/js/components/alvex.js" />	
+								
+								<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-renderers.js" />
+								<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-search.js" />
+								<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-search-renderers.js" />
+								<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid.js" />
+								<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-actions.js" />									
+								
+							</dependencies>
+						</forms>
+					</config>
+					-->
+					
+					
+            </configurations>
+			
+        </module>
+    </modules>
+</extension>

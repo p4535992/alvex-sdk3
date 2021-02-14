@@ -1,0 +1,150 @@
+<extension>
+    <modules>
+        <module>
+            <id>alvex-datagrid2-extension</id>
+            <version>1.0</version>
+			<auto-deploy>false</auto-deploy>
+
+            <components>
+				<component>
+					<scope>template</scope>
+					<region-id>datagrid</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">
+							<!-- 
+						    <evaluations>
+                                <evaluation id="xy">
+                                    <evaluators>
+                                        <evaluator type="xy.evaluator"></evaluator>
+                                    </evaluators>
+                                    <render>false</render>
+                                </evaluation>
+                            </evaluations>
+							<evaluations>			
+					            <evaluation id="alvex-data-lists-datagrid">							               
+					               <url>/alvex/components/data-lists/datagrid</url>		
+					            </evaluation>			
+					         </evaluations>
+					         -->
+					         <url>/alvex/components/data-lists/datagrid2</url>
+						</sub-component>
+					</sub-components>
+				</component>
+			
+				<component>
+					<scope>template</scope>
+					<region-id>toolbar</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">
+						  	<!--
+							<evaluations>
+                                <evaluation id="xy">
+                                    <evaluators>
+                                        <evaluator type="xy.evaluator"></evaluator>
+                                    </evaluators>
+                                    <render>false</render>
+                                </evaluation>
+                            </evaluations>
+							<evaluations>			
+					            <evaluation id="alvex-data-lists-toolbar">							               
+					               <url>/alvex/components/data-lists/toolbar</url>		
+					            </evaluation>			
+					        </evaluations>
+					        -->
+					        <url>/alvex/components/data-lists/toolbar2</url>									
+						</sub-component>
+					</sub-components>
+				</component>
+				<!-- 
+				<component>
+					<scope>template</scope>
+					<region-id>filter</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">					  
+					        <url>/alvex/components/data-lists/filter</url>									
+						</sub-component>
+					</sub-components>
+				</component>
+				<component>
+					<scope>template</scope>
+					<region-id>datalists</region-id>
+					<source-id>data-lists</source-id>							
+					<sub-components>
+						<sub-component id="default">					  
+					        <url>/alvex/components/data-lists/datalists</url>									
+						</sub-component>
+					</sub-components>
+				</component>
+				-->
+				<component>
+                    <scope>template</scope>
+                    <region-id>actions-common</region-id>
+                    <source-id>data-lists</source-id>
+                    <sub-components>
+                        <sub-component id="dnd-upload" index="50">
+                            <url>/components/upload/dnd-upload</url>
+                        </sub-component>
+                        <sub-component id="file-upload" index="60">
+                            <url>/components/upload/file-upload</url>
+                        </sub-component>
+                        <sub-component id="flash-upload" index="70">
+                            <url>/components/upload/flash-upload</url>
+                        </sub-component>
+                        <sub-component id="html-upload" index="80">
+                            <url>/components/upload/html-upload</url>
+                        </sub-component>
+                    </sub-components>
+                </component>
+			</components>
+	 		
+			<customizations>
+               <customization>
+                   <targetPackageRoot>org.alfresco.components.data-lists.config</targetPackageRoot>
+                   <sourcePackageRoot>alvex.alvex-datagrid2.datagrid-config</sourcePackageRoot>
+               </customization>
+               <customization>
+                    <targetPackageRoot>org.alfresco.components.form</targetPackageRoot>
+                    <sourcePackageRoot>alvex.alvex-datagrid2.data-lists.form</sourcePackageRoot>
+               </customization>
+               <!--
+               <customization>
+                    <targetPackageRoot>org.alfresco.components.data-lists.forms</targetPackageRoot>
+                    <sourcePackageRoot>alvex.alvex-datagrid2.data-lists.forms</sourcePackageRoot>
+               </customization>	
+               -->	                
+            </customizations>
+		
+			 
+			<configurations>
+					<!--
+					<config>
+						<forms>      
+							<dependencies>	
+								<css src="/alvex/alvex-datagrid2/css/components/alvex/datalists/datagrid.css" />
+								<css src="/alvex/alvex-datagrid2/css/components/alvex/datalists/toolbar.css" />
+								
+								<js src="/modules/data-lists/datalist-actions.js" />
+								
+								<js src="/alvex/alvex-utils/js/components/alvex/alvex.js" />
+								<js src="/alvex/alvex-utils/js/components/alvex.js" />	
+								
+								<js src="/alvex/alvex-datagrid2/js/components/alvex/datalists/datagrid-renderers.js" />
+								<js src="/alvex/alvex-datagrid2/js/components/alvex/datalists/datagrid-search.js" />
+								<js src="/alvex/alvex-datagrid2/js/components/alvex/datalists/datagrid-search-renderers.js" />
+								<js src="/alvex/alvex-datagrid2/js/components/alvex/datalists/datagrid.js" />
+								<js src="/alvex/alvex-datagrid2/js/components/alvex/datalists/datagrid-actions.js" />									
+								
+							</dependencies>
+						</forms>
+					</config>
+					-->
+					
+					
+            </configurations>
+			
+        </module>
+    </modules>
+</extension>

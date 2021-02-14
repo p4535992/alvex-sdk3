@@ -1,0 +1,392 @@
+ 2019-10-09 13:01:26,345  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-config/alvex-config.
+xml due to error: 09090041 Web Script document service-mdt-alvex/alvex-config/alvex-config.get.desc.xml is attempting to define the url '/api/alvex/config/(.*?)/(.*?):GET' already defined by alvex-config/alvex-config.get.desc.xm
+ 2019-10-09 13:01:26,348  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-config/alvex-config.
+xml due to error: 09090042 Web Script document service-mdt-alvex/alvex-config/alvex-config.put.desc.xml is attempting to define the url '/api/alvex/config/(.*?)/(.*?):PUT' already defined by alvex-config/alvex-config.put.desc.xm
+ 2019-10-09 13:01:26,348  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ad
+hart-admins.delete.desc.xml due to error: 09090007 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:DELE
+dy defined by alvex/alvex-orgchart/orgchart-admins/orgchart-admins.delete.desc.xml
+ 2019-10-09 13:01:26,348  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ad
+hart-admins.get.desc.xml due to error: 09090005 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:GET' alrea
+d by alvex/alvex-orgchart/orgchart-admins/orgchart-admins.get.desc.xml
+ 2019-10-09 13:01:26,348  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ad
+hart-admins.put.desc.xml due to error: 09090006 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:PUT' alrea
+d by alvex/alvex-orgchart/orgchart-admins/orgchart-admins.put.desc.xml
+ 2019-10-09 13:01:26,348  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-br
+gchart-branches.delete.desc.xml due to error: 09090012 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/branches/(.*?):
+lready defined by alvex/alvex-orgchart/orgchart-branches/orgchart-branches.delete.desc.xml
+ 2019-10-09 13:01:26,349  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-br
+gchart-branches.get.desc.xml due to error: 09090011 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.get.desc.xml is attempting to define the url '/api/alvex/orgchart/branches:GET' already
+by alvex/alvex-orgchart/orgchart-branches/orgchart-branches.get.desc.xml
+ 2019-10-09 13:01:26,349  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-br
+gchart-branches.put.desc.xml due to error: 09090013 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.put.desc.xml is attempting to define the url '/api/alvex/orgchart/branches/(.*?):PUT' a
+fined by alvex/alvex-orgchart/orgchart-branches/orgchart-branches.put.desc.xml
+ 2019-10-09 13:01:26,349  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ma
+gchart-managees.get.desc.xml due to error: 09090008 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-managees/orgchart-managees.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/managees:G
+dy defined by alvex/alvex-orgchart/orgchart-managees/orgchart-managees.get.desc.xml
+ 2019-10-09 13:01:26,350  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-me
+chart-members.delete.desc.xml due to error: 09090016 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members
+already defined by alvex/alvex-orgchart/orgchart-members/orgchart-members.delete.desc.xml
+ 2019-10-09 13:01:26,351  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-me
+chart-members.get.desc.xml due to error: 09090015 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:GET'
+efined by alvex/alvex-orgchart/orgchart-members/orgchart-members.get.desc.xml
+ 2019-10-09 13:01:26,351  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-me
+chart-members.put.desc.xml due to error: 09090014 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:PUT'
+efined by alvex/alvex-orgchart/orgchart-members/orgchart-members.put.desc.xml
+ 2019-10-09 13:01:26,351  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.delete.desc.xml due to error: 09090020 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.delete.desc.xml is attempting to define the url '/ap
+rgchart/role-definitions/(.*?):DELETE' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.delete.desc.xml
+ 2019-10-09 13:01:26,352  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.get.desc.xml due to error: 09090023 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.get.desc.xml is attempting to define the url '/api/alve
+t/role-definitions:GET' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.get.desc.xml
+ 2019-10-09 13:01:26,352  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.post.desc.xml due to error: 09090021 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.post.desc.xml is attempting to define the url '/api/al
+art/role-definitions/(.*?):POST' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.post.desc.xml
+ 2019-10-09 13:01:26,352  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.put.desc.xml due to error: 09090022 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.put.desc.xml is attempting to define the url '/api/alve
+t/role-definitions/(.*?):PUT' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.put.desc.xml
+ 2019-10-09 13:01:26,352  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+s/orgchart-role-members.delete.desc.xml due to error: 09090038 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.delete.desc.xml is attempting to define the url '/api/alvex/orgchart
+*?)/roles/(.*?)/members:DELETE' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.delete.desc.xml
+ 2019-10-09 13:01:26,352  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+s/orgchart-role-members.get.desc.xml due to error: 09090040 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units
+les/(.*?)/members:GET' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.get.desc.xml
+ 2019-10-09 13:01:26,353  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+s/orgchart-role-members.put.desc.xml due to error: 09090039 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units
+les/(.*?)/members:PUT' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.put.desc.xml
+ 2019-10-09 13:01:26,353  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+art-roles.delete.desc.xml due to error: 09090019 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?):DEL
+ady defined by alvex/alvex-orgchart/orgchart-roles/orgchart-roles.delete.desc.xml
+ 2019-10-09 13:01:26,353  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+art-roles.get.desc.xml due to error: 09090017 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles:GET' already de
+alvex/alvex-orgchart/orgchart-roles/orgchart-roles.get.desc.xml
+ 2019-10-09 13:01:26,353  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+art-roles.put.desc.xml due to error: 09090018 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?):PUT' alre
+ed by alvex/alvex-orgchart/orgchart-roles/orgchart-roles.put.desc.xml
+ 2019-10-09 13:01:26,354  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-su
+/orgchart-supervisors.delete.desc.xml due to error: 09090025 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/uni
+supervisors:DELETE' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.delete.desc.xml
+ 2019-10-09 13:01:26,354  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-su
+/orgchart-supervisors.get.desc.xml due to error: 09090026 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*
+isors:GET' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.get.desc.xml
+ 2019-10-09 13:01:26,354  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-su
+/orgchart-supervisors.put.desc.xml due to error: 09090024 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*
+isors:PUT' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.put.desc.xml
+ 2019-10-09 13:01:26,354  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-sy
+/orgchart-sync-config.get.desc.xml due to error: 09090009 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-config.get.desc.xml is attempting to define the url '/api/alvex/orgchart/sync-conf
+lready defined by alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-config.get.desc.xml
+ 2019-10-09 13:01:26,354  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-sy
+/orgchart-sync-start.get.desc.xml due to error: 09090010 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-start.get.desc.xml is attempting to define the url '/api/alvex/orgchart/sync-start:
+ady defined by alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-start.get.desc.xml
+ 2019-10-09 13:01:26,355  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-unit-move.post.desc.xml due to error: 09090035 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-unit-move.post.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/move/(.*?):
+eady defined by alvex/alvex-orgchart/orgchart-units/orgchart-unit-move.post.desc.xml
+ 2019-10-09 13:01:26,355  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units-tree.get.desc.xml due to error: 09090037 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units-tree.get.desc.xml is attempting to define the url '/api/alvex/orgchart/tree/(.*?):GET' already
+by alvex/alvex-orgchart/orgchart-units/orgchart-units-tree.get.desc.xml
+ 2019-10-09 13:01:26,355  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.delete.desc.xml due to error: 09090036 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):DELETE' already
+by alvex/alvex-orgchart/orgchart-units/orgchart-units.delete.desc.xml
+ 2019-10-09 13:01:26,355  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.get.desc.xml due to error: 09090032 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):GET' already defined
+alvex-orgchart/orgchart-units/orgchart-units.get.desc.xml
+ 2019-10-09 13:01:26,355  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.post.desc.xml due to error: 09090034 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.post.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):POST' already defin
+ex/alvex-orgchart/orgchart-units/orgchart-units.post.desc.xml
+ 2019-10-09 13:01:26,356  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.put.desc.xml due to error: 09090033 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):PUT' already defined
+alvex-orgchart/orgchart-units/orgchart-units.put.desc.xml
+ 2019-10-09 13:01:26,356  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-us
+art-user-ooo.get.desc.xml due to error: 09090027 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/ooo:GET' already
+by alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.get.desc.xml
+ 2019-10-09 13:01:26,356  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-us
+art-user-ooo.post.desc.xml due to error: 09090028 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.post.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/ooo:POST' alre
+ed by alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.post.desc.xml
+ 2019-10-09 13:01:26,356  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-us
+art-user-roles.get.desc.xml due to error: 09090029 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-roles.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/roles:GET' a
+fined by alvex/alvex-orgchart/orgchart-users/orgchart-user-roles.get.desc.xml
+ 2019-10-09 13:01:26,357  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/people-sear
+-byrefs.post.desc.xml due to error: 09090031 Web Script document service-mdt-alvex/alvex-orgchart/people-search/people-byrefs.post.desc.xml is attempting to define the url '/api/alvex/picker/users/byrefs:POST' already defined by
+vex-orgchart/people-search/people-byrefs.post.desc.xml
+ 2019-10-09 13:01:26,357  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/people-sear
+-name-search.get.desc.xml due to error: 09090030 Web Script document service-mdt-alvex/alvex-orgchart/people-search/people-name-search.get.desc.xml is attempting to define the url '/api/alvex/picker/users/search:GET' already def
+lvex/alvex-orgchart/people-search/people-name-search.get.desc.xml
+ 2019-10-09 13:01:26,357  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/allowed-workflows.get.desc.xml due to error: 09090000 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/allowed-workflows.get.desc.xml is attempting to define the url '/api/alvex/
+permissions/allowed-workflows2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/allowed-workflows.get.desc.xml
+ 2019-10-09 13:01:26,357  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/list-groups.get.desc.xml due to error: 09090004 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/list-groups.get.desc.xml is attempting to define the url '/api/alvex/workflow-per
+list-groups2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/list-groups.get.desc.xml
+ 2019-10-09 13:01:26,358  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/workflows-admin.delete.desc.xml due to error: 09090002 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.delete.desc.xml is attempting to define the url '/api/alve
+w-permissions/admin/allowed-workflows2:DELETE' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.delete.desc.xml
+ 2019-10-09 13:01:26,358  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/workflows-admin.get.desc.xml due to error: 09090001 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.get.desc.xml is attempting to define the url '/api/alvex/work
+issions/admin/allowed-workflows2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.get.desc.xml
+ 2019-10-09 13:01:26,358  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/workflows-admin.put.desc.xml due to error: 09090003 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.put.desc.xml is attempting to define the url '/api/alvex/work
+issions/admin/allowed-workflows2:PUT' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.put.desc.xml
+ 2019-10-09 13:01:26,358  INFO  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 821 Web Scripts (+43 failed), 973 URLs
+ 2019-10-09 13:01:26,359  INFO  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 1 Package Description Documents (+0 failed)
+ 2019-10-09 13:01:26,359  INFO  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Registered 0 Schema Description Documents (+0 failed)
+ 2019-10-09 13:01:27,653  DEBUG [alfresco.webscripts.MultiManageWebscript] [localhost-startStop-1] conservazioneAttiva: true
+ 2019-10-09 13:01:42,679  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-config/alvex-config.get.desc.xml due t
+09090084 Web Script document service-mdt-alvex/alvex-config/alvex-config.get.desc.xml is attempting to define the url '/api/alvex/config/(.*?)/(.*?):GET' already defined by alvex-config/alvex-config.get.desc.xml
+ 2019-10-09 13:01:42,680  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-config/alvex-config.put.desc.xml due t
+09090085 Web Script document service-mdt-alvex/alvex-config/alvex-config.put.desc.xml is attempting to define the url '/api/alvex/config/(.*?)/(.*?):PUT' already defined by alvex-config/alvex-config.put.desc.xml
+ 2019-10-09 13:01:42,680  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admi
+.desc.xml due to error: 09090050 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:DELETE' already define
+x/alvex-orgchart/orgchart-admins/orgchart-admins.delete.desc.xml
+ 2019-10-09 13:01:42,680  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admi
+sc.xml due to error: 09090048 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:GET' already defined by alve
+rgchart/orgchart-admins/orgchart-admins.get.desc.xml
+ 2019-10-09 13:01:42,680  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admi
+sc.xml due to error: 09090049 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:PUT' already defined by alve
+rgchart/orgchart-admins/orgchart-admins.put.desc.xml
+ 2019-10-09 13:01:42,680  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-br
+lete.desc.xml due to error: 09090055 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/branches/(.*?):DELETE' already de
+alvex/alvex-orgchart/orgchart-branches/orgchart-branches.delete.desc.xml
+ 2019-10-09 13:01:42,680  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-br
+t.desc.xml due to error: 09090054 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.get.desc.xml is attempting to define the url '/api/alvex/orgchart/branches:GET' already defined by alvex/
+chart/orgchart-branches/orgchart-branches.get.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-br
+t.desc.xml due to error: 09090056 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.put.desc.xml is attempting to define the url '/api/alvex/orgchart/branches/(.*?):PUT' already defined by
+ex-orgchart/orgchart-branches/orgchart-branches.put.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-managees/orgchart-ma
+t.desc.xml due to error: 09090051 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-managees/orgchart-managees.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/managees:GET' already define
+x/alvex-orgchart/orgchart-managees/orgchart-managees.get.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-mem
+te.desc.xml due to error: 09090059 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:DELETE' already d
+ alvex/alvex-orgchart/orgchart-members/orgchart-members.delete.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-mem
+desc.xml due to error: 09090058 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:GET' already defined by
+vex-orgchart/orgchart-members/orgchart-members.get.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-mem
+desc.xml due to error: 09090057 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:PUT' already defined by
+vex-orgchart/orgchart-members/orgchart-members.put.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/org
+e-definitions.delete.desc.xml due to error: 09090063 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/r
+itions/(.*?):DELETE' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.delete.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/org
+e-definitions.get.desc.xml due to error: 09090066 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.get.desc.xml is attempting to define the url '/api/alvex/orgchart/role-de
+:GET' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.get.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/org
+e-definitions.post.desc.xml due to error: 09090064 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.post.desc.xml is attempting to define the url '/api/alvex/orgchart/role-
+ns/(.*?):POST' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.post.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/org
+e-definitions.put.desc.xml due to error: 09090065 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.put.desc.xml is attempting to define the url '/api/alvex/orgchart/role-de
+/(.*?):PUT' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.put.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchar
+mbers.delete.desc.xml due to error: 09090081 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles
+mbers:DELETE' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.delete.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchar
+mbers.get.desc.xml due to error: 09090083 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?)
+GET' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.get.desc.xml
+ 2019-10-09 13:01:42,681  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchar
+mbers.put.desc.xml due to error: 09090082 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?)
+PUT' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.put.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles
+esc.xml due to error: 09090062 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?):DELETE' already defin
+ex/alvex-orgchart/orgchart-roles/orgchart-roles.delete.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles
+.xml due to error: 09090060 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles:GET' already defined by alvex/alv
+rt/orgchart-roles/orgchart-roles.get.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles
+.xml due to error: 09090061 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?):PUT' already defined by alv
+orgchart/orgchart-roles/orgchart-roles.put.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart
+ors.delete.desc.xml due to error: 09090068 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/superviso
+' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.delete.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart
+ors.get.desc.xml due to error: 09090069 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/supervisors:GET
+ defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.get.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart
+ors.put.desc.xml due to error: 09090067 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/supervisors:PUT
+ defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.put.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart
+fig.get.desc.xml due to error: 09090052 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-config.get.desc.xml is attempting to define the url '/api/alvex/orgchart/sync-config:GET' already de
+alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-config.get.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart
+rt.get.desc.xml due to error: 09090053 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-start.get.desc.xml is attempting to define the url '/api/alvex/orgchart/sync-start:GET' already defin
+ex/alvex-orgchart/orgchart-sync-config/orgchart-sync-start.get.desc.xml
+ 2019-10-09 13:01:42,682  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-unit-
+.desc.xml due to error: 09090078 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-unit-move.post.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/move/(.*?):POST' already defi
+vex/alvex-orgchart/orgchart-units/orgchart-unit-move.post.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units
+.desc.xml due to error: 09090080 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units-tree.get.desc.xml is attempting to define the url '/api/alvex/orgchart/tree/(.*?):GET' already defined by alvex/
+chart/orgchart-units/orgchart-units-tree.get.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units
+esc.xml due to error: 09090079 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):DELETE' already defined by alvex/
+chart/orgchart-units/orgchart-units.delete.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units
+.xml due to error: 09090075 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):GET' already defined by alvex/alvex-org
+chart-units/orgchart-units.get.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units
+c.xml due to error: 09090077 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.post.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):POST' already defined by alvex/alvex-
+orgchart-units/orgchart-units.post.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units
+.xml due to error: 09090076 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):PUT' already defined by alvex/alvex-org
+chart-units/orgchart-units.put.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-
+esc.xml due to error: 09090070 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/ooo:GET' already defined by alvex/
+chart/orgchart-users/orgchart-user-ooo.get.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-
+desc.xml due to error: 09090071 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.post.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/ooo:POST' already defined by alv
+orgchart/orgchart-users/orgchart-user-ooo.post.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-
+.desc.xml due to error: 09090072 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-roles.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/roles:GET' already defined by
+ex-orgchart/orgchart-users/orgchart-user-roles.get.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/people-search/people-byrefs.p
+xml due to error: 09090074 Web Script document service-mdt-alvex/alvex-orgchart/people-search/people-byrefs.post.desc.xml is attempting to define the url '/api/alvex/picker/users/byrefs:POST' already defined by alvex/alvex-orgch
+e-search/people-byrefs.post.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/people-search/people-name-sea
+esc.xml due to error: 09090073 Web Script document service-mdt-alvex/alvex-orgchart/people-search/people-name-search.get.desc.xml is attempting to define the url '/api/alvex/picker/users/search:GET' already defined by alvex/alve
+t/people-search/people-name-search.get.desc.xml
+ 2019-10-09 13:01:42,683  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions/workflow-permissi
+ed-workflows.get.desc.xml due to error: 09090043 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/allowed-workflows.get.desc.xml is attempting to define the url '/api/alvex/workflow-permissio
+d-workflows2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/allowed-workflows.get.desc.xml
+ 2019-10-09 13:01:42,684  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions/workflow-permissi
+groups.get.desc.xml due to error: 09090047 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/list-groups.get.desc.xml is attempting to define the url '/api/alvex/workflow-permissions/list-grou
+already defined by alvex/alvex-workflow-permissions/workflow-permissions/list-groups.get.desc.xml
+ 2019-10-09 13:01:42,684  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions/workflow-permissi
+lows-admin.delete.desc.xml due to error: 09090045 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.delete.desc.xml is attempting to define the url '/api/alvex/workflow-permiss
+n/allowed-workflows2:DELETE' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.delete.desc.xml
+ 2019-10-09 13:01:42,684  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions/workflow-permissi
+lows-admin.get.desc.xml due to error: 09090044 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.get.desc.xml is attempting to define the url '/api/alvex/workflow-permissions/a
+wed-workflows2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.get.desc.xml
+ 2019-10-09 13:01:42,684  WARN  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions/workflow-permissi
+lows-admin.put.desc.xml due to error: 09090046 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.put.desc.xml is attempting to define the url '/api/alvex/workflow-permissions/a
+wed-workflows2:PUT' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.put.desc.xml
+ 2019-10-09 13:01:42,684  INFO  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 821 Web Scripts (+43 failed), 973 URLs
+ 2019-10-09 13:01:42,684  INFO  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 1 Package Description Documents (+0 failed)
+ 2019-10-09 13:01:42,684  INFO  [extensions.webscripts.DeclarativeRegistry] [localhost-startStop-1] Registered 0 Schema Description Documents (+0 failed)
+ 2019-10-09 13:01:42,695  INFO  [extensions.webscripts.AbstractRuntimeContainer] [localhost-startStop-1] Initialised Repository Web Script Container (in 44444.48ms)
+ 2019-10-09 13:01:42,847  INFO  [extensions.webscripts.TemplateProcessorRegistry] [localhost-startStop-1] Registered template processor freemarker for extension ftl
+ 2019-10-09 13:01:42,853  INFO  [extensions.webscripts.ScriptProcessorRegistry] [localhost-startStop-1] Registered script processor javascript for extension js
+ 2019-10-09 13:01:43,925  DEBUG [alfresco.webscripts.MultiManageWebscript] [asynchronouslyRefreshedCacheThreadPool1] conservazioneAttiva: true
+ 2019-10-09 13:01:58,583  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-config/alvex-config.
+xml due to error: 09090127 Web Script document service-mdt-alvex/alvex-config/alvex-config.get.desc.xml is attempting to define the url '/api/alvex/config/(.*?)/(.*?):GET' already defined by alvex-config/alvex-config.get.desc.xm
+ 2019-10-09 13:01:58,583  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-config/alvex-config.
+xml due to error: 09090128 Web Script document service-mdt-alvex/alvex-config/alvex-config.put.desc.xml is attempting to define the url '/api/alvex/config/(.*?)/(.*?):PUT' already defined by alvex-config/alvex-config.put.desc.xm
+ 2019-10-09 13:01:58,583  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ad
+hart-admins.delete.desc.xml due to error: 09090093 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:DELE
+dy defined by alvex/alvex-orgchart/orgchart-admins/orgchart-admins.delete.desc.xml
+ 2019-10-09 13:01:58,583  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ad
+hart-admins.get.desc.xml due to error: 09090091 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:GET' alrea
+d by alvex/alvex-orgchart/orgchart-admins/orgchart-admins.get.desc.xml
+ 2019-10-09 13:01:58,583  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ad
+hart-admins.put.desc.xml due to error: 09090092 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-admins/orgchart-admins.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/admins:PUT' alrea
+d by alvex/alvex-orgchart/orgchart-admins/orgchart-admins.put.desc.xml
+ 2019-10-09 13:01:58,584  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-br
+gchart-branches.delete.desc.xml due to error: 09090098 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/branches/(.*?):
+lready defined by alvex/alvex-orgchart/orgchart-branches/orgchart-branches.delete.desc.xml
+ 2019-10-09 13:01:58,584  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-br
+gchart-branches.get.desc.xml due to error: 09090097 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.get.desc.xml is attempting to define the url '/api/alvex/orgchart/branches:GET' already
+by alvex/alvex-orgchart/orgchart-branches/orgchart-branches.get.desc.xml
+ 2019-10-09 13:01:58,584  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-br
+gchart-branches.put.desc.xml due to error: 09090099 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-branches/orgchart-branches.put.desc.xml is attempting to define the url '/api/alvex/orgchart/branches/(.*?):PUT' a
+fined by alvex/alvex-orgchart/orgchart-branches/orgchart-branches.put.desc.xml
+ 2019-10-09 13:01:58,584  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ma
+gchart-managees.get.desc.xml due to error: 09090094 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-managees/orgchart-managees.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/managees:G
+dy defined by alvex/alvex-orgchart/orgchart-managees/orgchart-managees.get.desc.xml
+ 2019-10-09 13:01:58,584  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-me
+chart-members.delete.desc.xml due to error: 09090102 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members
+already defined by alvex/alvex-orgchart/orgchart-members/orgchart-members.delete.desc.xml
+ 2019-10-09 13:01:58,584  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-me
+chart-members.get.desc.xml due to error: 09090101 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:GET'
+efined by alvex/alvex-orgchart/orgchart-members/orgchart-members.get.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-me
+chart-members.put.desc.xml due to error: 09090100 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-members/orgchart-members.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/members:PUT'
+efined by alvex/alvex-orgchart/orgchart-members/orgchart-members.put.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.delete.desc.xml due to error: 09090106 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.delete.desc.xml is attempting to define the url '/ap
+rgchart/role-definitions/(.*?):DELETE' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.delete.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.get.desc.xml due to error: 09090109 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.get.desc.xml is attempting to define the url '/api/alve
+t/role-definitions:GET' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.get.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.post.desc.xml due to error: 09090107 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.post.desc.xml is attempting to define the url '/api/al
+art/role-definitions/(.*?):POST' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.post.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+tions/orgchart-role-definitions.put.desc.xml due to error: 09090108 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.put.desc.xml is attempting to define the url '/api/alve
+t/role-definitions/(.*?):PUT' already defined by alvex/alvex-orgchart/orgchart-role-definitions/orgchart-role-definitions.put.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+s/orgchart-role-members.delete.desc.xml due to error: 09090124 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.delete.desc.xml is attempting to define the url '/api/alvex/orgchart
+*?)/roles/(.*?)/members:DELETE' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.delete.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+s/orgchart-role-members.get.desc.xml due to error: 09090126 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units
+les/(.*?)/members:GET' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.get.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+s/orgchart-role-members.put.desc.xml due to error: 09090125 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units
+les/(.*?)/members:PUT' already defined by alvex/alvex-orgchart/orgchart-role-members/orgchart-role-members.put.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+art-roles.delete.desc.xml due to error: 09090105 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?):DEL
+ady defined by alvex/alvex-orgchart/orgchart-roles/orgchart-roles.delete.desc.xml
+ 2019-10-09 13:01:58,585  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+art-roles.get.desc.xml due to error: 09090103 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles:GET' already de
+alvex/alvex-orgchart/orgchart-roles/orgchart-roles.get.desc.xml
+ 2019-10-09 13:01:58,586  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-ro
+art-roles.put.desc.xml due to error: 09090104 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-roles/orgchart-roles.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/roles/(.*?):PUT' alre
+ed by alvex/alvex-orgchart/orgchart-roles/orgchart-roles.put.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-su
+/orgchart-supervisors.delete.desc.xml due to error: 09090111 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/uni
+supervisors:DELETE' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.delete.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-su
+/orgchart-supervisors.get.desc.xml due to error: 09090112 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*
+isors:GET' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.get.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-su
+/orgchart-supervisors.put.desc.xml due to error: 09090110 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*
+isors:PUT' already defined by alvex/alvex-orgchart/orgchart-supervisors/orgchart-supervisors.put.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-sy
+/orgchart-sync-config.get.desc.xml due to error: 09090095 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-config.get.desc.xml is attempting to define the url '/api/alvex/orgchart/sync-conf
+lready defined by alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-config.get.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-sy
+/orgchart-sync-start.get.desc.xml due to error: 09090096 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-start.get.desc.xml is attempting to define the url '/api/alvex/orgchart/sync-start:
+ady defined by alvex/alvex-orgchart/orgchart-sync-config/orgchart-sync-start.get.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-unit-move.post.desc.xml due to error: 09090121 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-unit-move.post.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?)/move/(.*?):
+eady defined by alvex/alvex-orgchart/orgchart-units/orgchart-unit-move.post.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units-tree.get.desc.xml due to error: 09090123 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units-tree.get.desc.xml is attempting to define the url '/api/alvex/orgchart/tree/(.*?):GET' already
+by alvex/alvex-orgchart/orgchart-units/orgchart-units-tree.get.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.delete.desc.xml due to error: 09090122 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.delete.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):DELETE' already
+by alvex/alvex-orgchart/orgchart-units/orgchart-units.delete.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.get.desc.xml due to error: 09090118 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.get.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):GET' already defined
+alvex-orgchart/orgchart-units/orgchart-units.get.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.post.desc.xml due to error: 09090120 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.post.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):POST' already defin
+ex/alvex-orgchart/orgchart-units/orgchart-units.post.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-un
+art-units.put.desc.xml due to error: 09090119 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-units/orgchart-units.put.desc.xml is attempting to define the url '/api/alvex/orgchart/units/(.*?):PUT' already defined
+alvex-orgchart/orgchart-units/orgchart-units.put.desc.xml
+ 2019-10-09 13:01:58,587  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-us
+art-user-ooo.get.desc.xml due to error: 09090113 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/ooo:GET' already
+by alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.get.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-us
+art-user-ooo.post.desc.xml due to error: 09090114 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.post.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/ooo:POST' alre
+ed by alvex/alvex-orgchart/orgchart-users/orgchart-user-ooo.post.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/orgchart-us
+art-user-roles.get.desc.xml due to error: 09090115 Web Script document service-mdt-alvex/alvex-orgchart/orgchart-users/orgchart-user-roles.get.desc.xml is attempting to define the url '/api/alvex/orgchart/user/(.*?)/roles:GET' a
+fined by alvex/alvex-orgchart/orgchart-users/orgchart-user-roles.get.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/people-sear
+-byrefs.post.desc.xml due to error: 09090117 Web Script document service-mdt-alvex/alvex-orgchart/people-search/people-byrefs.post.desc.xml is attempting to define the url '/api/alvex/picker/users/byrefs:POST' already defined by
+vex-orgchart/people-search/people-byrefs.post.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-orgchart/people-sear
+-name-search.get.desc.xml due to error: 09090116 Web Script document service-mdt-alvex/alvex-orgchart/people-search/people-name-search.get.desc.xml is attempting to define the url '/api/alvex/picker/users/search:GET' already def
+lvex/alvex-orgchart/people-search/people-name-search.get.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/allowed-workflows.get.desc.xml due to error: 09090086 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/allowed-workflows.get.desc.xml is attempting to define the url '/api/alvex/
+permissions/allowed-workflows2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/allowed-workflows.get.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/list-groups.get.desc.xml due to error: 09090090 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/list-groups.get.desc.xml is attempting to define the url '/api/alvex/workflow-per
+list-groups2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/list-groups.get.desc.xml
+ 2019-10-09 13:01:58,588  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/workflows-admin.delete.desc.xml due to error: 09090088 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.delete.desc.xml is attempting to define the url '/api/alve
+w-permissions/admin/allowed-workflows2:DELETE' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.delete.desc.xml
+ 2019-10-09 13:01:58,589  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/workflows-admin.get.desc.xml due to error: 09090087 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.get.desc.xml is attempting to define the url '/api/alvex/work
+issions/admin/allowed-workflows2:GET' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.get.desc.xml
+ 2019-10-09 13:01:58,589  WARN  [extensions.webscripts.DeclarativeRegistry] [asynchronouslyRefreshedCacheThreadPool1] Unable to register script classpath:alfresco/templates/webscripts/service-mdt-alvex/alvex-workflow-permissions
+-permissions/workflows-admin.put.desc.xml due to error: 09090089 Web Script document service-mdt-alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.put.desc.xml is attempting to define the url '/api/alvex/work
+issions/admin/allowed-workflows2:PUT' already defined by alvex/alvex-workflow-permissions/workflow-permissions/workflows-admin.put.desc.xml

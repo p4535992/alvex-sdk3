@@ -1,0 +1,7 @@
+<webscript>
+	<shortname>Alvex: Admin Component for Master Data</shortname>
+	<description>Alvex: Admin Component for Master Data</description>
+	<url>/components/admin/alvex/masterdata</url>
+	<family>admin-console</family>
+	<authentication>admin</authentication>
+</webscript>

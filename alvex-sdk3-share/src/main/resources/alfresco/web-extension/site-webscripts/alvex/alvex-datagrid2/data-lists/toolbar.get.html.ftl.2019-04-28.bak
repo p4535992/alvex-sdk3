@@ -1,0 +1,98 @@
+<#include "/org/alfresco/components/component.head.inc">
+<@link rel="stylesheet" type="text/css" href="${page.url.context}/res/alvex/alvex-datagrid2/css/components/alvex/datalists/toolbar.css" />
+<@script type="text/javascript" src="${page.url.context}/res/alvex/alvex-datagrid2/js/components/alvex/datalists/toolbar.js" />
+
+<#assign id = args.htmlid>
+<#assign showRegistryConfig = (args.registryConfig?? && args.registryConfig == "true")>
+<#assign showRegistryConfig = (showRegistryConfig && isSiteAdmin)>
+<#-- 
+<@markup id="css" >
+   <@link href="${url.context}/res/components/data-lists/toolbar.css"           group="datalistsAlvexToolbar"/>
+   <@link rel="stylesheet" type="text/css" href="${url.context}/res/alvex/alvex-datagrid2/css/components/alvex/datalists/toolbar.css" group="datalistsAlvexToolbar"/>
+</@>
+
+<@markup id="js">
+   <@script type="text/javascript" src="${url.context}/res/components/data-lists/toolbar.js"            group="datalistsAlvexToolbar"/>
+   <@script type="text/javascript" src="${url.context}/res/alvex/alvex-datagrid2/js/components/alvex/datalists/toolbar.js" group="datalistsAlvexToolbar"/>
+</@>
+
+<@markup id="widgets">
+   <@createWidgets group="datalistsAlvexToolbar"/>
+</@>
+<@markup id="html">
+   <@uniqueIdDiv>
+-->
+		<script type="text/javascript">//<![CDATA[
+		   new Alvex.DataListsToolbar("${id}").setOptions(
+		   {
+		      siteId: "${page.url.templateArgs.site!""}"
+		   }).setMessages(${messages});
+		//]]></script>
+		
+		<div id="${args.htmlid}-body" class="datalist-toolbar toolbar">
+		   <div id="${args.htmlid}-headerBar" class="header-bar flat-button theme-bg-2">
+		      <div class="left">
+		         <div class="new-row">
+		            <span id="${id}-newRowButton" class="yui-button yui-push-button">
+		               <span class="first-child">
+		                  <button type="button">${msg('button.new-row')}</button>
+		               </span>
+		            </span>
+		         </div>
+		         <!--
+		         <div class="excel-export">
+		            <span id="${id}-excelButton" class="yui-button yui-push-button">
+		               <span class="first-child">
+		                  <button type="button">${msg('button.excel-export')}</button>
+		               </span>
+		            </span>
+		         </div>
+		         <div class="counters-config <#if showRegistryConfig?? && !showRegistryConfig>hidden</#if>">
+		            <span id="${id}-countersConfig" class="yui-button yui-push-button">
+		               <span class="first-child">
+		                  <button type="button">${msg('label.register-edit.title')}</button>
+		               </span>
+		            </span>
+		         </div>
+		         -->
+		         <div class="manage-rules <#if showRegistryConfig?? && !showRegistryConfig>hidden</#if>">
+		            <span id="${id}-rulesButton" class="yui-button yui-push-button">
+		               <span class="first-child">
+		                  <button type="button">${msg('button.manage-rules')}</button>
+		               </span>
+		            </span>
+		         </div>
+		         <div class="selected-items">
+	                  <button class="no-access-check" id="${id}-selectedItems-button" name="doclist-selectedItems-button">${msg("menu.selected-items")}</button>
+	                  <div id="${id}-selectedItems-menu" class="yuimenu">
+	                     <div class="bd">
+	                        <ul>
+	                        <#list actionSet as action>
+	                           <li><a type="${action.asset!""}" rel="${action.permission!""}" href="${action.href}"><span class="${action.id}">${msg(action.label)}</span></a></li>
+	                        </#list>
+	                           <li><a href="#"><hr /></a></li>
+	                           <li><a href="#"><span class="onActionDeselectAll">${msg("menu.selected-items.deselect-all")}</span></a></li>
+	                        </ul>
+	                     </div>
+	                  </div>
+	               </div>
+		      </div>
+		
+		      <div class="right" style="display: none;">
+		         <span id="${id}-printButton" class="yui-button yui-push-button print">
+		             <span class="first-child">
+		                 <button type="button">${msg('button.print')}</button>
+		             </span>
+		         </span>
+		         <span id="${id}-rssFeedButton" class="yui-button yui-push-button rss-feed">
+		             <span class="first-child">
+		                 <button type="button">${msg('button.rss-feed')}</button>
+		             </span>
+		         </span>
+		      </div>
+		   </div>
+		</div>
+<#--
+   </@>
+</@>
+-->

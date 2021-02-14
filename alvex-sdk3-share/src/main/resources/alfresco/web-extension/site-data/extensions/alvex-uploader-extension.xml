@@ -1,0 +1,52 @@
+<extension>
+    <modules>
+        <module>
+            <id>alvex-uploader-extension</id>
+            <version>1.0</version>
+			<auto-deploy>false</auto-deploy>
+			<configurations>	
+					<!-- 		
+					<config>
+						<forms>      
+							<dependencies>
+								<css src="/yui/fonts/fonts.css" />
+								<css src="/yui/datatable/assets/skins/sam/datatable.css" />
+								<js  src="/yui/yahoo-dom-event/yahoo-dom-event.js" />
+								<js  src="/yui/element/element.js" />
+								<js  src="/yui/uploader/uploader.js" />
+								<js  src="/yui/datasource/datasource.js" />
+								<js  src="/yui/datatable/datatable.js" />
+								<js  src="/yui/cookie/cookie.js" />
+								<js  src="/alvex/alvex-uploader/js/components/alvex/uploader/alvex-uploader.js" />
+								<css src="/alvex/alvex-uploader/css/components/alvex/uploader/alvex-uploader.css" />
+								<js  src="/alvex/alvex-uploader/js/components/alvex/uploader/alvex-uploader-dialog.js" />
+								<js  src="/alvex/alvex-uploader/js/components/alvex/uploader/alvex-docreg-object-finder.js" />
+
+								<js src="/js/alfresco-dnd.js" />
+				
+								<js src="/alvex/alvex-utils/js/components/alvex/alvex.js" />
+
+								<js src="/alvex/alvex-utils/js/components/alvex/simple-dialog.js" />
+								<js src="/alvex/alvex-utils/js/components/alvex/interval-calendar.js" />
+
+								<css src="/alvex/alvex-uploader/css/components/alvex/uploader/dnd-upload.css" />
+								<js  src="/alvex/alvex-uploader/js/components/alvex/uploader/dnd-upload.js" />
+								<css src="/components/upload/flash-upload.css" />
+								<js  src="/components/upload/flash-upload.js" />
+							</dependencies>
+						</forms>
+					</config>
+					-->
+			
+            	<!-- 
+				<config evaluator="string-compare" condition="DocLibCustom">
+					<dependencies>						
+						<js src="/service-alvex-uploader/*.js" />
+					</dependencies>
+				</config>
+				-->
+            </configurations>
+
+        </module>
+    </modules>
+</extension>

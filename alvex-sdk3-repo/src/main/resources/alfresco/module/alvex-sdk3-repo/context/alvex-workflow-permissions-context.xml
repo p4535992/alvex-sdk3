@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+
+	<!-- Bootstrap configs -->
+	<bean id="alvex-workflow-permissions-templates-bootstrap" 
+				class="org.alfresco.repo.admin.patch.impl.GenericBootstrapPatch" parent="basePatch">
+		<!-- Module properties -->
+		<property name="id" value="alvex-workflow-permissions-config" />
+		<property name="description" value="Alvex workflow permissions templates - used for setting default available workflows" />
+		<property name="fixesFromSchema"><value>0</value></property>
+		<property name="fixesToSchema"><value>${version.schema}</value></property>
+		<property name="targetSchema"><value>99000</value></property>
+		<!-- Data properties -->
+		<property name="importerBootstrap">
+			<ref bean="spacesBootstrap" />
+		</property>
+		<property name="checkPath">
+			<value>/${spaces.company_home.childname}/${spaces.dictionary.childname}/app:alvex</value>
+		</property>
+		<property name="bootstrapView">
+			<props>
+				<prop key="path">/${spaces.company_home.childname}/${spaces.dictionary.childname}</prop>
+				<prop key="location">alfresco/module/${project.artifactId}/bootstrap/alvex-workflow-permissions.xml</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="alvex-workflow-permissions" parent="alvex-extension"
+		class="com.alvexcore.repo.WorkflowPermissionsExtension"
+		depends-on="" />
+</beans>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Definition of Share Data Lists Model -->
+
+<!-- Note: the alvexxdl: namespace is defined further on in the document -->
+<model name="alvexxdl:datalistmodel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+
+   <!-- Meta-data about the model -->
+   <description>Extended Alfresco Share Data List Model</description>
+   <author>Andreas Steffan</author>
+   <version>0.1</version>
+
+   <!-- Imports are required to allow references to definitions in other models -->
+   <imports>
+      <!-- Import Alfresco Dictionary Definitions -->
+      <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+      <!-- Import Alfresco Content Domain Model Definitions -->
+      <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+      <!-- Import Alfresco Forum Model Definitions -->
+      <!-- import uri="http://www.alfresco.org/model/forum/1.0" prefix="fm"/-->
+      <!-- Import Alfresco Content Domain Model Definitions -->
+      <import uri="http://www.alfresco.org/model/system/1.0" prefix="sys" />
+
+      <import uri="http://www.alfresco.org/model/datalist/1.0" prefix="dl"/>
+
+   </imports>
+
+   <!-- Data List Namespace -->
+   <namespaces>
+      <namespace uri="http://alvexcore.com/prefix/alvexxdl" prefix="alvexxdl"/>
+   </namespaces>
+
+   <constraints>
+      <constraint name="alvexxdl:task_status" type="LIST">
+         <parameter name="allowedValues">
+            <list>
+               <value>Not Started</value>
+               <value>In Progress</value>
+               <value>Complete</value>
+               <value>On Hold</value>
+               <value>Approval</value>
+            </list>
+         </parameter>
+      </constraint>
+   </constraints>
+
+   <types>
+
+      <!-- Data List - Container. DO NOT MODIFY -->
+      <!--type name="alvexxdl:dataList">
+         <title>Ext Data List container type</title>
+         <parent>dl:dataList</parent>
+         <properties>
+            <property name="alvexxdl:dataListItemType">
+               <title>List Item Type</title>
+               <description>Determines which Data Dictionary type will be used when create new items within the Data List.</description>
+               <type>d:text</type>
+            </property>
+         </properties>
+         <mandatory-aspects>
+            <aspect>cm:countable</aspect>
+         </mandatory-aspects>
+      </type-->
+
+
+      <!-- Data List - Data Item Base Type. DO NOT MODIFY -->
+      <type name="alvexxdl:demoXdlTask">
+         <title>Ext. Task List (Advanced)</title>
+         <description>Demo of extending the advanced task list</description>
+         <parent>dl:task</parent><!-- dl:task -->
+         <properties>
+            <property name="alvexxdl:testId">
+               <title>Test ID</title>
+               <description/>
+               <type>d:text</type>
+               <index enabled="true">
+                  <!--atomic>false</atomic>
+                  <stored>false</stored-->
+                  <tokenised>false</tokenised>
+               </index>
+            </property>
+         </properties>
+         <overrides>
+            <property name="dl:taskStatus">
+               <default>Not Started</default>
+               <constraints>
+                  <constraint ref="alvexxdl:task_status" />
+               </constraints>
+            </property>
+         </overrides>
+         <mandatory-aspects>
+            <aspect>alvexxdl:autoIdItem</aspect><!-- cm:versionable -->
+         	<!--aspect>fm:discussable</aspect-->
+         </mandatory-aspects>
+      </type>
+
+      <!-- Data List - Simple "To do" list -->
+      <!--type name="alvexxdl:todoList">
+         <title>To Do List</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <associations>
+         </associations>
+      </type-->
+
+      <!-- Data List - Simple Tasks List -->
+      <!--type name="alvexxdl:simpletask">
+         <title>Task List (Simple)</title>
+         <parent>alvexxdl:dataListItem</parent-->
+         <!--properties>
+         </properties-->
+         <!--mandatory-aspects>
+            <aspect>cm:titled</aspect>
+         </mandatory-aspects-->
+      <!--/type-->
+
+      <!-- Data List - Advanced Tasks List -->
+      <!--type name="alvexxdl:task">
+         <title>Task List (Advanced)</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <associations>
+         </associations>
+         <mandatory-aspects>
+            <aspect>cm:titled</aspect>
+            <aspect>cm:attachable</aspect>
+            <aspect>alvexxdl:gantt</aspect>
+         </mandatory-aspects>
+      </type-->
+
+      <!-- Data List - Contact List -->
+      <!--type name="alvexxdl:contact">
+         <title>Contacts List</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+      </type-->
+
+      <!-- Data List - Contact List -->
+      <!--type name="alvexxdl:issue">
+         <title>Issues List</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <associations>
+         </associations>
+         <mandatory-aspects>
+            <aspect>cm:titled</aspect>
+            <aspect>cm:attachable</aspect>
+         </mandatory-aspects>
+      </type-->
+
+      <!-- Data List - Event List -->
+      <!--type name="alvexxdl:event">
+         <title>Event</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <mandatory-aspects>
+         </mandatory-aspects>
+      </type-->
+
+      <!-- Data List - Event List -->
+      <!--type name="alvexxdl:location">
+         <title>Location</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <mandatory-aspects>
+            <aspect>cm:titled</aspect>
+            <aspect>cm:attachable</aspect>
+         </mandatory-aspects>
+      </type-->
+
+      <!-- Data List - Meeting Agenda List -->
+      <!--type name="alvexxdl:meetingAgenda">
+         <title>Meeting Agenda</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <mandatory-aspects>
+            <aspect>cm:titled</aspect>
+            <aspect>cm:attachable</aspect>
+         </mandatory-aspects>
+      </type-->
+
+      <!-- Data List - Event Agenda List -->
+      <!--type name="alvexxdl:eventAgenda">
+         <title>Event Agenda</title>
+         <parent>alvexxdl:dataListItem</parent>
+         <properties>
+         </properties>
+         <mandatory-aspects>
+             <aspect>cm:attachable</aspect>
+         </mandatory-aspects>
+      </type-->
+   </types>
+
+   <aspects>
+      <aspect name="alvexxdl:autoidList">
+         <title>Auto ID</title>
+         <properties>
+            <property name="alvexxdl:lastId">
+               <title>Last ID</title>
+               <type>d:int</type>
+               <index enabled="true">
+                  <atomic>false</atomic>
+                  <stored>false</stored>
+                  <tokenised>true</tokenised>
+               </index>
+            </property>
+            <property name="alvexxdl:idFmt">
+               <title>Optional format ID assigned</title>
+               <type>d:text</type>
+               <index enabled="true">
+                  <tokenised>false</tokenised>
+               </index>
+            </property>
+
+         </properties>
+      </aspect>
+      <aspect name="alvexxdl:autoIdItem">
+         <title>Auto ID Item</title>
+         <properties>
+            <property name="alvexxdl:id">
+               <title>ID</title>
+               <type>d:text</type>
+               <index enabled="true">
+                  <!--atomic>false</atomic-->
+                  <stored>false</stored>
+                  <tokenised>false</tokenised>
+               </index>
+            </property>
+         </properties>
+      </aspect>
+      <!--aspect name="alvexxdl:gantt">
+         <title>Gantt</title>
+         <properties>
+         </properties>
+      </aspect-->
+      <!--aspect name="alvexxdl:dataListItemId">
+         <title>ID</title>
+         <properties>
+            <property name="alvexxdl:itemId">
+               <title>ID</title>
+               <type>d:int</type>
+               <index enabled="true">
+    	         <atomic>false</atomic>
+    	         <stored>false</stored> 
+    	         <tokenised>true</tokenised>
+    	       </index>
+            </property>
+         </properties>
+      </aspect-->
+      <!--aspect name="alvexxdl:assigneeHelper">
+         <title>Assignee Names</title>
+         <properties>
+            <property name="alvexxdl:assigneeFullName">
+               <title>Assignee Names</title>
+               <type>d:text</type>
+               <multiple>true</multiple>
+            </property>
+         </properties>
+      </aspect-->
+
+   </aspects>
+
+</model>

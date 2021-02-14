@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+
+
+    <!-- The person service. -->
+	<!-- <bean id="personService" class="com.alvexcore.repo.MNamePersonServiceImpl" init-method="init"> -->
+    <bean id="personServiceAlvex" class="com.alvexcore.repo.MNamePersonServiceImpl" init-method="init">
+        <property name="transactionService" ref="transactionService" />
+        <property name="nodeService" ref="nodeService" />
+        <property name="tenantService" ref="tenantService"/>
+        <property name="singletonCache" ref="immutableSingletonCache"/>
+        <property name="searchService" ref="admSearchService" />
+        <property name="permissionServiceSPI" ref="permissionServiceImpl" />
+        <property name="authorityService" ref="authorityService" />
+        <property name="authenticationService" ref="authenticationService" />
+        <property name="dictionaryService" ref="dictionaryService" />
+        <property name="namespacePrefixResolver" ref="namespaceService" />
+        <property name="policyComponent" ref="policyComponent"/>
+        <property name="personCache" ref="personCache" />
+        <property name="permissionsManager" ref="personServicePermissionsManager" />
+        <property name="cannedQueryRegistry" ref="personServiceCannedQueryRegistry" />
+        <property name="aclDAO" ref="aclDAO" />
+        <property name="homeFolderManager" ref="HomeFolderManager" />
+        <property name="repoAdminService" ref="repoAdminService" />
+        <property name="serviceRegistry" ref="ServiceRegistry"/>
+        <property name="eventPublisher" ref="eventPublisher" />
+
+        <!-- Configurable properties. -->
+        <property name="homeFolderCreationEager"    value= "${home.folder.creation.eager}" />
+        <property name="homeFolderCreationDisabled" value= "${home.folder.creation.disabled}" />
+        <!-- -->
+        <!-- TODO: -->
+        <!-- Add support for creating real home spaces adn setting -->
+        <!-- permissions on the hame space and people created. -->
+        <!-- -->
+        <!-- The store in which people are persisted. -->
+        <property name="storeUrl">
+            <value>${spaces.store}</value>
+        </property>
+        <!-- Some authentication mechanisms may need to create people -->
+        <!-- in the repository on demand. This enables that feature. -->
+        <!-- If dsiabled an error will be generated for missing -->
+        <!-- people. If enabled then a person will be created and -->
+        <!-- persisted. -->
+        <!-- Valid values are -->
+        <!-- ${server.transaction.allow-writes} -->
+        <!-- false -->
+        <property name="createMissingPeople">
+            <value>${create.missing.people}</value>
+        </property>
+        <property name="userNameMatcher">
+            <ref bean="userNameMatcher" />
+        </property>
+        <!-- New properties after 1.4.0 to deal with duplicate user ids when found -->
+        <property name="processDuplicates">
+            <value>true</value>
+        </property>
+        <!-- one of: LEAVE, SPLIT, DELETE -->
+        <property name="duplicateMode">
+            <value>SPLIT</value>
+        </property>
+        <property name="lastIsBest">
+            <value>true</value>
+        </property>
+        <property name="includeAutoCreated">
+            <value>false</value>
+        </property>
+    </bean>
+
+    <bean id="peopleScriptAlvex" parent="baseJavaScriptExtension" class="org.alfresco.repo.jscript.People">
+        <property name="extensionName">
+            <value>peopleAlvex</value>
+        </property>
+        <property name="storeUrl">
+            <value>${spaces.store}</value>
+        </property>
+        <property name="serviceRegistry">
+            <ref bean="ServiceRegistry"/>
+        </property>
+        <property name="authorityDAO">
+            <ref bean="authorityDAO"/>
+        </property>
+        <property name="authorityService">
+            <ref bean="AuthorityService"/>
+        </property>
+        <property name="personService">
+            <!-- <ref bean="PersonService"/> -->
+            <ref bean="personServiceAlvex"/>
+        </property>
+        <property name="authenticationService">
+            <ref bean="AuthenticationService"/>
+        </property>
+        <property name="contentUsageService">
+            <ref bean="ContentUsageService"/>
+        </property>
+        <property name="tenantService">
+            <ref bean="tenantService"/>
+        </property>
+        <property name="userNameGenerator">
+            <ref bean="userNameGenerator"/>
+        </property>
+        <property name="userRegistrySynchronizer" ref="userRegistrySynchronizer" />
+        <property name="honorHintUseCQ">
+            <value>${people.search.honor.hint.useCQ}</value>
+        </property>
+    </bean>
+</beans>

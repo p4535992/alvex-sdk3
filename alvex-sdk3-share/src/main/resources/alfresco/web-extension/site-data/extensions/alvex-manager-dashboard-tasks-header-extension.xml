@@ -1,0 +1,36 @@
+<extension>
+  <modules>
+    <module>
+      <id>alvex-manager-dashboard-tasks-share-header-extension</id>
+      <version>1.0</version>
+      <auto-deploy>false</auto-deploy>
+      <customizations>
+      	<!-- MOD 4535992 -->
+      	<!-- 
+        <customization>
+          <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+          <sourcePackageRoot>com.alvexcore.manager-dashboard-tasks-header</sourcePackageRoot>
+        </customization>
+        <customization>
+          <targetPackageRoot>org.alfresco.share.pages</targetPackageRoot>
+          <sourcePackageRoot>com.alvexcore.manager-dashboard-tasks-header</sourcePackageRoot>
+          <alwaysApply>
+            <webscript>share-header</webscript>
+          </alwaysApply>
+        </customization>
+        -->
+        <customization>
+          <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+          <sourcePackageRoot>alvex.alvex-manager-dashboard-tasks.com.alvexcore.manager-dashboard-tasks-header</sourcePackageRoot>
+        </customization>
+        <customization>
+          <targetPackageRoot>org.alfresco.share.pages</targetPackageRoot>
+          <sourcePackageRoot>alvex.alvex-manager-dashboard-tasks.com.alvexcore.manager-dashboard-tasks-header</sourcePackageRoot>
+          <alwaysApply>
+            <webscript>share-header</webscript>
+          </alwaysApply>
+        </customization>
+      </customizations>
+    </module>
+  </modules>
+</extension>

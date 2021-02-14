@@ -1,0 +1,20 @@
+<extension>
+  <modules>
+    <module>
+      <id>alvex-aikau-components-extension</id>
+      <version>1.0</version>
+      <auto-deploy>false</auto-deploy>
+      <configurations>
+        <config evaluator="string-compare" condition="WebFramework" replace="false">
+          <web-framework>
+            <dojo-pages>
+              <packages>
+                <package name="alvex" location="alvex/alvex-aikau-components/js/alvex"/>
+              </packages>
+            </dojo-pages>
+          </web-framework>
+        </config>
+      </configurations>
+    </module>
+  </modules>
+</extension>

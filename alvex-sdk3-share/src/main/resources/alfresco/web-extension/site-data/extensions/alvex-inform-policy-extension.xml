@@ -1,0 +1,33 @@
+<extension>
+  <modules>
+    <module>
+      <!--  <id>Inform Policy Widgets</id> -->
+      <id>alvex-inform-policy-widgets-extension</id>
+      <version>1.0</version>
+      <auto-deploy>false</auto-deploy>
+      <configurations>
+        <config evaluator="string-compare" condition="WebFramework" replace="false">
+          <web-framework>
+            <dojo-pages>
+              <packages>
+                <package name="informPolicy" location="alvex/alvex-inform-policy/js/informPolicy"/>
+              </packages>
+            </dojo-pages>
+          </web-framework>
+        </config>
+      </configurations>
+    </module>
+    <module>
+      <!-- <id>Add custom menu item to header</id> -->
+      <id>alvex-inform-policy-header-extension</id>
+      <version>1.0</version>
+      <auto-deploy>false</auto-deploy>
+      <customizations>
+        <customization>
+          <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+          <sourcePackageRoot>alvex.alvex-inform-policy.com.alvexcore.inform-policy</sourcePackageRoot>
+        </customization>
+      </customizations>
+    </module>
+  </modules>
+</extension>

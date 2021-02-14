@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+    <bean id="alvex-key-value-store" class="com.alvexcore.repo.kvstore.KeyValueStore">
+        <property name="storeImpl" value="${alvex.kvstore.impl}"/>
+    </bean>
+
+    <bean id="alvex-key-value-store-provider" abstract="true">
+        <property name="store" ref="alvex-key-value-store"/>
+    </bean>
+
+    <bean id="alvex-mapdb-key-value-store-provider" parent="alvex-key-value-store-provider" class="com.alvexcore.repo.kvstore.mapdb.MapDBKeyValueStoreProvider">
+        <property name="path" value="${alvex.kvstore.impl.mapdb.path}"/>
+    </bean>
+
+    <bean id="alvex-key-value-store-aware" abstract="true">
+        <property name="keyValueStore" ref="alvex-key-value-store"/>
+    </bean>
+</beans>

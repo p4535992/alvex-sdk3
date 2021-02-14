@@ -1,0 +1,109 @@
+<alfresco-config>
+    <!-- MOD 4535992 -->
+    <!-- NOT USED LEFT FOR HISTORY -->
+	<config>
+		<forms>      
+			<dependencies>
+			    <js src="/alvex/alvex-utils/js/components/alvex/alvex.js" />
+			    <js src="/alvex/alvex-utils/js/components/alvex/simple-dialog.js" />
+				<js src="/alvex/alvex-utils/js/components/alvex/interval-calendar.js" />
+				<js src="/alvex/alvex-utils/js/components/alvex/datalist-picker.js" />
+				<js src="/alvex/alvex-utils/js/components/alvex/datalist-field-picker.js" />
+				<js src="/alvex/alvex-utils/js/components/alvex/review-summary/review-summary.js" />
+			    <!-- ================================= -->
+			    <!-- ALVEX UPLOADER -->
+			    <!-- ================================= -->
+			    
+				<css src="/yui/fonts/fonts.css" />
+				<css src="/yui/datatable/assets/skins/sam/datatable.css" />
+				<js src="/yui/yahoo-dom-event/yahoo-dom-event.js" />
+				<js src="/yui/element/element.js" />
+				<js src="/yui/uploader/uploader.js" />
+				<js src="/yui/datasource/datasource.js" />
+				<js src="/yui/datatable/datatable.js" />
+				<js src="/yui/cookie/cookie.js" />
+				<js src="/alvex/alvex-uploader/js/components/alvex/uploader/alvex-uploader.js" />
+				<css src="/alvex/alvex-uploader/css/components/alvex/uploader/alvex-uploader.css" />
+				<js src="/alvex/alvex-uploader/js/components/alvex/uploader/alvex-uploader-dialog.js" />
+				<js src="/alvex/alvex-uploader/js/components/alvex/uploader/alvex-docreg-object-finder.js" />
+				<!-- TODO: remove it after we have a WA for start-workflow page -->
+
+				<js src="/js/alfresco-dnd.js" />
+
+				<!-- <js src="/alvex/alvex-utils/js/components/alvex/alvex.js" /> -->
+				<!-- MOD 4535992 -->
+				<!-- 
+				<css src="/alvex/alvex-utils/css/components/alvex/datalists/datagrid.css" />
+				<js src="/modules/data-lists/datalist-actions.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-renderers.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-search.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-search-renderers.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-actions.js" />
+				-->
+				<!-- END MOD 4535992 -->
+				<!--  
+				<js src="/alvex/alvex-utils/js/components/alvex/simple-dialog.js" />
+				<js src="/alvex/alvex-utils/js/components/alvex/interval-calendar.js" />
+				-->
+				<!-- Copied from 4.2.c. WA for 4.1.x where HTML5 uploader is not good -->
+				<css src="/alvex/alvex-uploader/css/components/alvex/uploader/dnd-upload.css" />
+				<js src="/alvex/alvex-uploader/js/components/alvex/uploader/dnd-upload.js" />
+				<css src="/components/upload/flash-upload.css" />
+				<js src="/components/upload/flash-upload.js" />
+				
+				<!-- ================================= -->
+			    <!-- ALVEX MASTERDATA -->
+			    <!-- ================================= -->
+			    <!-- 
+			    <js  src="/alvex/alvex-utils/js/components/alvex/datalist-picker.js" />
+				<js  src="/alvex/alvex-utils/js/components/alvex/datalist-field-picker.js" />
+				-->
+				<!-- ================================= -->
+			    <!-- ALVEX DATAGRID -->
+			    <!-- ================================= -->
+			    <css src="/alvex/alvex-utils/css/components/alvex/datalists/datagrid.css" />
+			    <css src="/alvex/alvex-utils/css/components/alvex/datalists/toolbar.css" />
+			    
+				<js src="/modules/data-lists/datalist-actions.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-actions.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-renderers.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-search.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid-search-renderers.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/datagrid.js" />
+				<js src="/alvex/alvex-datagrid/js/components/alvex/datalists/toolbar.js" />
+				
+				<!-- ================================= -->
+			    <!-- ALVEX ORGCHART -->
+			    <!-- ================================= -->
+			    <css src="/yui/datatable/assets/skins/sam/datatable.css" />
+				<css src="/components/profile/profile.css" />
+				<css src="/alvex/alvex-orgchart/css/components/alvex/orgchart/orgchart-view.css" />
+				<css src="/alvex/alvex-orgchart/css/grouped-data-table/grouped-data-table.css" />
+				<css src="/yui/assets/skins/sam/treeview.css" />
+				<js  src="/yui/yahoo-dom-event/yahoo-dom-event.js" />
+				<js  src="/yui/element/element.js" />
+				<js  src="/yui/uploader/uploader.js" />
+				<js  src="/yui/datasource/datasource.js" />
+				<js  src="/yui/datatable/datatable.js" />
+				<js  src="/yui/cookie/cookie.js" />
+				<!-- <js  src="/js/jit/jit-yc.js" /> -->
+				<js  src="/alvex/alvex-orgchart/js/jit/jit-yc.js" />
+				<js  src="/yui/resize/resize.js" />
+				<js  src="/yui/treeview/treeview.js" />
+				<js  src="/yui/animation/animation.js" />
+				<js  src="/yui/dragdrop/dragdrop.js" />
+				<js  src="/alvex/alvex-orgchart/js/components/alvex/orgchart/orgchart-view.js" />
+				<js  src="/alvex/alvex-orgchart/js/components/alvex/orgchart/orgchart-group-view.js" />
+				<js  src="/alvex/alvex-orgchart/js/grouped-data-table/grouped-data-table.js" />
+				<!--  <js  src="/alvex/alvex-utils/js/components/alvex/alvex.js" /> -->
+				
+				<!-- ================================= -->
+			    <!-- ALVEX WORKFLOW PERMISSIONS -->
+			    <!-- ================================= -->
+				<!--  <js src="/alvex/alvex-utils/js/components/alvex/review-summary/review-summary.js" /> -->
+			</dependencies>
+		</forms>
+	</config>
+	<!-- END MOD 4535992 -->
+</alfresco-config>

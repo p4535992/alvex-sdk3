@@ -1,0 +1,26 @@
+<extension>
+  <modules> 
+ 	<module>    
+      <id>alvex-middle-name-extension</id>
+      <version>1.0</version>
+      <auto-deploy>false</auto-deploy>
+      <!--  
+      <customizations>
+        <customization>
+          <targetPackageRoot>org.alfresco.components.profile</targetPackageRoot>
+          <sourcePackageRoot>alvex.alvex-middle-name.org.alfresco.components.profile</sourcePackageRoot>
+        </customization>
+      </customizations>
+      -->
+      <configurations>
+        <config evaluator="string-compare" condition="WebFramework" replace="false">
+	        <web-framework>
+	            <defaults>
+	                <user-factory>webframework.factory.user.alvex</user-factory>
+	            </defaults>
+	        </web-framework>
+        </config>
+      </configurations>
+    </module>
+  </modules>
+</extension>
