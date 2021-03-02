@@ -34,7 +34,7 @@ if (typeof Alvex == "undefined" || !Alvex)
 
 	Alvex.WorkflowPermissionsAdmin = function(htmlId)
 	{
-		this.name = "Alvex.WorkflowPermissionsAdmi";
+		this.name = "Alvex.WorkflowPermissionsAdmin";
 		Alvex.WorkflowPermissionsAdmin.superclass.constructor.call(this, htmlId);
 
 		Alfresco.util.ComponentManager.register(this);
